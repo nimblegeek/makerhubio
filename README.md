@@ -8,10 +8,27 @@ Features and states of the features
 List of boilerplates and tech stacks to launch your project fast.
 
 ## Getting Started
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+**Clone your project**
+
+```
+git clone
+```
+
+**cd into your project folder**
+
+** Start your project**
+```
+rails server
+``` 
+
+**Generate scaffold with a CRUD interface**
+```
+rails generate scaffold Post title:string body:text
+```
+
+
+
 
 ### Ruby version
 Built with ruby 3.3.0
