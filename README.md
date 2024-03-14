@@ -1,8 +1,11 @@
 # MakerhubIO
+Web app for independent makers of software products. 
 
 ## Features
+Features and states of the features
 
-### The MakerList - list of boilerplates and tech stacks to use for launching your SaaS
+### The MakerList
+List of boilerplates and tech stacks to launch your project fast.
 
 ## Getting Started
 This README would normally document whatever steps are necessary to get the
