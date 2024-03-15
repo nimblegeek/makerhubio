@@ -1,13 +1,17 @@
+
+
+
 <p style="color: green"><%= notice %></p>
 
 <h1>Posts</h1>
 
-<div id="posts">
+<div id="posts" style="display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 10px;">
   <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post %>
-    </p>
+    <div style="border: 1px solid black; padding: 10px;">
+      <%= image_tag post.image_url %>
+      <p><%= link_to post.title, post %></p>
+      <p><%= post.description %></p>
+    </div>
   <% end %>
 </div>
 
