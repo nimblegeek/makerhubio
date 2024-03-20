@@ -1,0 +1,37 @@
+#posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .post {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  .post-image {
+    width: 100%; /* Ensure the image fills the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .post-title {
+    color: #000; /* Style for the post title links */
+    text-decoration: none; /* Optional: removes underline from links */
+  }
+  
+  .new-post-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add a media query for responsiveness if needed */
+  @media (max-width: 768px) {
+    #posts {
+      grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on smaller screens */
+    }
+  }
+  
